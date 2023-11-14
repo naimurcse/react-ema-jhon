@@ -1,12 +1,10 @@
 import React from 'react';
 import "./Product.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope,faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Product = (props) => {
     const { img, name, price, quantity, seller, stock } = props.product;
-    console.log(props);
-    
     const handleAddToCart = props.handleAddToCart;
 
     return (
