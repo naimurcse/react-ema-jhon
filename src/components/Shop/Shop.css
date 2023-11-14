@@ -2,3 +2,19 @@
    display: grid;
    grid-template-columns: 4fr 1fr;
 }
+.product-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   /* border: 1px solid red; */
+   gap: 15px;
+
+   width: 87%;
+   padding-left: 100px;
+   padding-top: 50px;
+   /* margin-left: 50px; */
+}
+.cart-container {
+   padding: 50px 15px 15px 15px;
+   /* border: 1px solid rgb(255, 221, 0); */
+   background-color: rgb(251, 244, 216);
+}
