@@ -8,7 +8,12 @@ const Header = () => {
             <div className="container">
                 <div className="nav-container">
                     <img src={Logo} alt="" />
-                    <h1>MEHNAZ SHAZNEEN</h1>
+                    <div>
+                        <a href="/shop">Shop</a>
+                        <a href="/order">Order</a>
+                        <a href="/inventory">Inventory management</a>
+                        <a href="/login">Log in</a>
+                    </div>
                 </div>
             </div>
             
