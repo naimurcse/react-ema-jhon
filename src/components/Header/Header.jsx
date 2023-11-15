@@ -5,7 +5,6 @@ import "./Header.css";
 const Header = () => {
     return (
         <nav className='header'>
-            
                 <div className="nav-container">
                     <img src={Logo} alt="" />
                     <div>
