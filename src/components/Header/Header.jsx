@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
     return (
         <nav className='header'>
-            <div className="container">
+            
                 <div className="nav-container">
                     <img src={Logo} alt="" />
                     <div>
@@ -14,7 +14,7 @@ const Header = () => {
                         <a href="/inventory">Inventory management</a>
                         <a href="/login">Log in</a>
                     </div>
-                </div>
+              
             </div>
             
         </nav>

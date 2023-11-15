@@ -6,11 +6,10 @@
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    /* border: 1px solid red; */
-   gap: 15px;
+   gap: 25px;
 
-   width: 87%;
-   padding-left: 100px;
-   padding-top: 50px;
+   padding: 50px;
+   padding-left: 140px;
    /* margin-left: 50px; */
 }
 .cart-container {
